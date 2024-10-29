@@ -1,0 +1,243 @@
+.page {
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    width: 360px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 132px;
+}
+
+.header_logo {
+    margin: 24px 0 0 20px;
+    width: 78px;
+    height: 15px;
+}
+
+.header_logo-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__menu-list1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__menu-item {
+    margin: 0px 0px 12px 0px;
+}
+
+.header__menu-link {
+    color: #f5f5f5;
+}
+
+.cover {
+    background-image: url(./s-chistogo-lista-main/s-chistogo-lista-main/images/cover.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.cover__title {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 72px;
+}
+
+.accent-span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.intro {
+    margin: 30px 20px 37px 20px;
+}
+
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.intro__title {
+    margin: 0px;
+    color: #cccccc;
+    font-size: 16px;
+    width: 203px;
+}
+
+.intro__date {
+    color: #cccccc;
+}
+
+.intro__main-text {
+    color: #f5f5f5;
+    margin: 0 0 24px 0;
+}
+
+.reasons {
+    margin: auto;
+    background-color: #fee42a;
+    height: 1165px;
+}
+
+.content-section__subtitle {
+    display: flex;
+    margin: 32px 20px 32px;
+    flex-direction: column;
+    font-size: 28px;
+}
+
+.content-section__introduction {
+    display: flex;
+    margin: 0px 20px;
+    color: #131313;
+    font-size: 20px;
+}
+
+.content-section__list {
+    display: flex;
+    margin: 32px 20px 16px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.content-section__list-item {
+    color: #131313;
+}
+
+.content-section__list-accent {
+    font-weight: bold;
+}
+
+.how-to {
+    background-color: black;
+}
+
+.text-color-white {
+    color: #f5f5f5;
+}
+
+.cards-list {
+    display: flex;
+    margin: 32px 20px 0px;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.card_theme_dark {
+    background-color: #343434;
+}
+
+.card_theme_bright {
+    background-color: #fee42a;
+}
+
+.card__author {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    width: 290px;
+    height: 130px;
+}
+
+.card__author-photo {
+    width: 100px;
+    height: 100px;
+}
+
+.card__author-name {
+    margin: 8px 128px 0px 0px;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 20px 20px;
+}
+
+.card__title {
+    margin: 0px 30px 0px 0px;
+    font-size: 16px;
+}
+
+.card__text {
+    margin: 15px 0px 0px;
+}
+
+.text-color-black {
+    color: #131313;
+}
+
+.card_text-only {
+    display: flex;
+    margin: 32px 0px 32px 0px;
+    flex-direction: column;
+    height: 305px;
+    width: 315px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.card__title-ones {
+    margin: 20px 20px 0px 20px;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.card__text-onee {
+    margin: 8px 20px 20px;
+}
+
+.card-two {
+    display: flex;
+    margin: 0px 0px 32px 0px;
+    height: 495px;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.footer {
+    padding: 20px 20px;
+    border-top: 2px solid #FEE42A;
+}
+
+.footer-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copy {
+    color: #f5f5f5;
+}
+
+.footer__links {
+    color: #f5f5f5;
+}
